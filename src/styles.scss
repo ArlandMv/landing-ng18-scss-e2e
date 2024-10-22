@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Flowbite 
+@import 'flowbite';*/
+
+body {
+  background: #111827;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+section {
+  margin-block: 20px;
+  padding: 50px 50px;
+}

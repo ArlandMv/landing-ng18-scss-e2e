@@ -1,22 +1,37 @@
 # LandingNg18ScssE2e
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+[Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+PNPM
+NODE LTS version 20.18.0
+GIT+ git bash
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
+## Code scaffolding with ANGULAR CLI
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+COMPONENTS
+ng g c components/navbar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+PAGES
 
-## Running unit tests
+- ng g c pages/home --inline-style
+- ng g c pages/products --inline-style
+- ng g c pages/about --inline-template --inline-style
+  ng generate component pages/home --standalone --inline-template --inline-style
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Services
+
+- ng g s services/auth
+
+## NPM -> PNPM
+
+- pnpm add motion
+- pnpm add flowbite
+
+npm install cypress --save-dev
+pnpm add cypress --save-dev
+add to scrips-> "e2e": "cypress open"
+pnpm e2e
 
 ## Running end-to-end tests
 
